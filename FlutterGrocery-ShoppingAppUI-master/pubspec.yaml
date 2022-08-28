@@ -1,0 +1,196 @@
+name: fryo
+description: A food ordering app template kit.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.12.0+2    
+  page_transition: '^1.0.9'
+  smooth_star_rating: '1.0.2'
+  progress_hud : ^1.1.0
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  shared_preferences: ^0.4.2
+  fluttertoast: ^2.0.7
+  carousel_pro: ^0.0.13
+  flutter_swiper: ^1.1.6
+  provider: ^3.0.0
+  rxdart: ^0.22.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+   
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - images/welcome.png
+   - images/1.png
+   - images/2.png
+   - images/3.png
+   - images/4.png
+   - images/5.png
+   - images/6.png
+   - images/7.png
+   - images/8.png
+   - images/9.png
+   - images/logo4.png
+    # Categorias
+   - images/categorys/ama-casa.png
+   - images/categorys/car-wash.png
+   - images/categorys/carpenter.png
+   - images/categorys/catering.png
+   - images/categorys/cerrajero.png
+   - images/categorys/chef.png
+   - images/categorys/chofer.png
+   - images/categorys/Construccion.png
+   - images/categorys/consultoria.png
+   - images/categorys/electricista.png
+   - images/categorys/eventos.png
+   - images/categorys/gasfitero.png
+   - images/categorys/grua.png
+   - images/categorys/jardinero.png
+   - images/categorys/List-details.png
+   - images/categorys/logo4.png
+   - images/categorys/maestro_ceremonia.png
+   - images/categorys/manicurista.png
+   - images/categorys/maquillador.png
+   - images/categorys/masajista.png
+   - images/categorys/mecanico.png
+   - images/categorys/medical.png
+   - images/categorys/melamine.png
+   - images/categorys/movilidad_escolar.png
+   - images/categorys/mudanza.png
+   - images/categorys/niñera.png
+   - images/categorys/organizador_eventos.png
+   - images/categorys/otros.png
+   - images/categorys/pedicurista.png
+   - images/categorys/peluquero.png
+   - images/categorys/photographer.png
+   - images/categorys/pintor.png
+   - images/categorys/profesor.png
+   - images/categorys/programmer.png
+   - images/categorys/sastre.png
+   - images/categorys/show-animacion.png
+   - images/categorys/soldador.png
+   - images/categorys/taxi.png
+   - images/categorys/tecnico_repair.png
+   - images/categorys/trainer.png
+   #utilitarios
+   - images/img/art.png
+   - images/img/assistance.png
+   - images/img/back.jpg
+   - images/img/badges_colored.png
+   - images/img/c1.jpg
+   - images/img/cars.jpg
+   - images/img/check_list.png
+   - images/img/children.jpg
+   - images/img/complete.png
+   - images/img/contact_us.png
+   - images/img/dress.jpg
+   - images/img/electronics.jpg
+   - images/img/feedback.png
+   - images/img/google.png
+   - images/img/home.png
+   - images/img/house.jpg
+   - images/img/info.png
+   - images/img/laptop1.png
+   - images/img/laptop2.png
+   - images/img/lg.png
+   - images/img/login.png
+   - images/img/logo.png
+   - images/img/m1.jpeg
+   - images/img/m2.jpg
+   - images/img/mazzad.png
+   - images/img/men.jpg
+   - images/img/policy.png
+   - images/img/profile.png
+   - images/img/refund.png
+   - images/img/registeration_ico.png
+   - images/img/shipping.png
+   - images/img/sofa.png
+   - images/img/terms.png
+   - images/img/visa.png
+   - images/img/w1.jpeg
+   - images/img/w3.jpeg
+   - images/img/w4.jpeg
+   - images/img/automotriz.jpg
+   - images/img/belleza.jpg
+   - images/img/cursos.jpg
+   - images/img/eventos.jpg
+   - images/img/fotografia.jpg
+   - images/img/hogar.jpg
+   - images/img/limpieza.jpg
+   - images/img/talleres.jpg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+        - asset: fonts/Poppins-Medium.ttf
+        - asset: fonts/Poppins-Bold.ttf
+          weight: 700
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico.ttf
+    - family: Fryo
+      fonts:
+        - asset: fonts/Fryo.ttf
+
+
+        
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
